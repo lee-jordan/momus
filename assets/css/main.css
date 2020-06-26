@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+    font-family: 'Roboto', sans-serif;
   }
   
   /* Generic */
@@ -11,7 +14,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     background-color: #FDFBFD;
   }
   
@@ -22,6 +25,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+  }
+
+  .error-message {
+      margin-top: 5vmax;
+      font-size: 5vmax;
   }
   
   .leg {
