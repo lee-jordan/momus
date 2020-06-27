@@ -5,6 +5,8 @@
   </a>
 </p>
 
+### 🔍 [View Site](https://placeholder.leejordan.dev)
+
 > A simple yet cute placeholder site
 
 ### 🏠 [Homepage](https://leejordan.dev)
